@@ -20,6 +20,7 @@ jobs:
         run: | 
           pwd
           ls -al
+          ls .github/workflows -al
       - name: Simple JS Action
         id: greet
         uses: actions/hello-world-javascript-action@v1
